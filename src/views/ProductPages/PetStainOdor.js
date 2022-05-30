@@ -72,11 +72,10 @@ export default function PetStainOdor() {
           <div>
             <div className={classes.left}>
               <List className={classes.list}>
-                <ListItem className={classes.inlineBlock}>
+              <ListItem className={classes.inlineBlock}>
                   <a
-                    href="https://www.creative-tim.com/presentation?ref=mkpr-about-us"
+                    href="/"
                     className={classes.block}
-                    target="_blank"
                   >
                     About us
                   </a>

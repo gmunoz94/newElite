@@ -78,8 +78,7 @@ export default function PresentationPage() {
           <div>
             <div className={classes.left}>
               <a
-                href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-presentation"
-                target="_blank"
+                href="/"
                 className={classes.footerBrand}
               >
                 Elite Home Solutions

@@ -63,9 +63,8 @@ export default function FAQPage() {
               <List className={classes.list}>
                 <ListItem className={classes.inlineBlock}>
                   <a
-                    href="https://www.creative-tim.com/presentation?ref=mkpr-about-us"
+                    href="/"
                     className={classes.block}
-                    target="_blank"
                   >
                     About us
                   </a>
