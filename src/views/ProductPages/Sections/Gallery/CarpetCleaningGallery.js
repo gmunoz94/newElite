@@ -10,11 +10,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle.js";
 
 // office
-import office1 from "assets/img/examples/office1.jpg";
-import office2 from "assets/img/examples/office2.jpg";
-import office3 from "assets/img/examples/office3.jpg";
-import office4 from "assets/img/examples/office4.jpg";
-import office5 from "assets/img/examples/office5.jpg";
+import carpet1 from "assets/img/servicePages/carpet/carpet1.jpg";
+import carpet2 from "assets/img/servicePages/carpet/carpet2.jpg";
+import carpet3 from "assets/img/servicePages/carpet/carpet3.jpg";
+import carpet4 from "assets/img/servicePages/carpet/carpet4.jpg";
+import carpet5 from "assets/img/servicePages/carpet/carpet5.jpg";
 
 const useStyles = makeStyles(officeStyle);
 
@@ -39,8 +39,8 @@ export default function CarpetCleaningGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office1}
-            alt="office1"
+            src={carpet1}
+            alt="carpet1"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -50,8 +50,10 @@ export default function CarpetCleaningGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office2}
-            alt="office2"
+            src={carpet2
+          }
+            alt="carpet2
+          "
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -61,8 +63,8 @@ export default function CarpetCleaningGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office3}
-            alt="office3"
+            src={carpet3}
+            alt="carpet3"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -72,8 +74,8 @@ export default function CarpetCleaningGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office4}
-            alt="office4"
+            src={carpet4}
+            alt="carpet4"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -83,8 +85,8 @@ export default function CarpetCleaningGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office5}
-            alt="office5"
+            src={carpet5}
+            alt="carpet5"
           />
         </GridItem>
       </GridContainer>

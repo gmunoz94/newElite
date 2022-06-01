@@ -50,7 +50,7 @@ export default function CouponPage() {
                 classes.textCenter
               )}
             >
-              <h1 className={classes.title}>Page Under Construction</h1>
+              <h1 className={classes.title}>Coupons Coming Soon!</h1>
             </GridItem>
           </GridContainer>
         </div>

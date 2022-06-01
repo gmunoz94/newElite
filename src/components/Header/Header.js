@@ -17,6 +17,9 @@ import Menu from "@material-ui/icons/Menu";
 import Close from "@material-ui/icons/Close";
 // core components
 import styles from "assets/jss/material-kit-pro-react/components/headerStyle.js";
+// logo
+import Logo from "assets/img/Logo.png"
+import LogoT from "assets/img/Logo-TRANS.png"
 
 const useStyles = makeStyles(styles);
 
@@ -56,7 +59,7 @@ export default function Header(props) {
         .classList.remove(classes[changeColorOnScroll.color]);
     }
   };
-  const { color, links, brand, fixed, absolute } = props;
+  const { color, links, fixed, absolute } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
@@ -67,7 +70,7 @@ export default function Header(props) {
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
         <Button className={classes.title}>
-          <Link to="/">{brand}</Link>
+          <Link to="/"><img src={LogoT} alt="Logo" className={classes.headerLogo} /></Link>
         </Button>
         <Hidden smDown implementation="css" className={classes.hidden}>
           <div className={classes.collapse}>{links}</div>

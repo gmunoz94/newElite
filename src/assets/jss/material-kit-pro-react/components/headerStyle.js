@@ -206,6 +206,10 @@ const headerStyle = theme => ({
     right: "8px",
     top: "9px",
     zIndex: "1"
+  },
+  headerLogo: {
+    height: "100px",
+    width: "100px"
   }
 });
 

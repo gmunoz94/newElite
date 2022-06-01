@@ -10,11 +10,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle.js";
 
 // office
-import office1 from "assets/img/examples/office1.jpg";
-import office2 from "assets/img/examples/office2.jpg";
-import office3 from "assets/img/examples/office3.jpg";
-import office4 from "assets/img/examples/office4.jpg";
-import office5 from "assets/img/examples/office5.jpg";
+import tile1 from "assets/img/servicePages/tile/tile1.jpg";
+import tile2 from "assets/img/servicePages/tile/tile2.jpg";
+import tile3 from "assets/img/servicePages/tile/tile3.jpg";
+import tile4 from "assets/img/servicePages/tile/tile4.jpg";
+import tile5 from "assets/img/servicePages/tile/tile5.jpg";
 
 const useStyles = makeStyles(officeStyle);
 
@@ -39,8 +39,8 @@ export default function TileAndGroutGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office1}
-            alt="office1"
+            src={tile1}
+            alt="tile1"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -50,8 +50,8 @@ export default function TileAndGroutGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office2}
-            alt="office2"
+            src={tile2}
+            alt="tile2"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -61,8 +61,8 @@ export default function TileAndGroutGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office3}
-            alt="office3"
+            src={tile3}
+            alt="tile3"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -72,8 +72,8 @@ export default function TileAndGroutGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office4}
-            alt="office4"
+            src={tile4}
+            alt="tile4"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -83,8 +83,8 @@ export default function TileAndGroutGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office5}
-            alt="office5"
+            src={tile5}
+            alt="tile5"
           />
         </GridItem>
       </GridContainer>

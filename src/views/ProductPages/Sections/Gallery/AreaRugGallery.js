@@ -10,11 +10,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle.js";
 
 // office
-import office1 from "assets/img/examples/office1.jpg";
-import office2 from "assets/img/examples/office2.jpg";
-import office3 from "assets/img/examples/office3.jpg";
-import office4 from "assets/img/examples/office4.jpg";
-import office5 from "assets/img/examples/office5.jpg";
+import rug1 from "assets/img/servicePages/rug/rug1.jpg";
+import rug2 from "assets/img/servicePages/rug/rug2.jpg";
+import rug3 from "assets/img/servicePages/rug/rug3.jpg";
+import rug4 from "assets/img/servicePages/rug/rug4.jpg";
+import rug5 from "assets/img/servicePages/rug/rug5.jpg";
 
 const useStyles = makeStyles(officeStyle);
 
@@ -39,8 +39,8 @@ export default function AreaRugGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office1}
-            alt="office1"
+            src={rug1}
+            alt="rug1"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -50,8 +50,8 @@ export default function AreaRugGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office2}
-            alt="office2"
+            src={rug2}
+            alt="rug2"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -61,8 +61,8 @@ export default function AreaRugGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office3}
-            alt="office3"
+            src={rug3}
+            alt="rug3"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -72,8 +72,8 @@ export default function AreaRugGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office4}
-            alt="office4"
+            src={rug4}
+            alt="rug4"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -83,8 +83,8 @@ export default function AreaRugGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office5}
-            alt="office5"
+            src={rug5}
+            alt="rug5"
           />
         </GridItem>
       </GridContainer>

@@ -10,11 +10,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle.js";
 
 // office
-import office1 from "assets/img/examples/office1.jpg";
-import office2 from "assets/img/examples/office2.jpg";
-import office3 from "assets/img/examples/office3.jpg";
-import office4 from "assets/img/examples/office4.jpg";
-import office5 from "assets/img/examples/office5.jpg";
+import upholstery1 from "assets/img/servicePages/upholstery/upholstery1.jpg";
+import upholstery2 from "assets/img/servicePages/upholstery/upholstery2.jpg";
+import upholstery3 from "assets/img/servicePages/upholstery/upholstery3.jpg";
+import upholstery4 from "assets/img/servicePages/upholstery/upholstery4.jpg";
+import upholstery5 from "assets/img/servicePages/upholstery/upholstery5.jpg";
 
 const useStyles = makeStyles(officeStyle);
 
@@ -39,8 +39,8 @@ export default function UpholsteryGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office1}
-            alt="office1"
+            src={upholstery1}
+            alt="upholstery1"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -50,8 +50,8 @@ export default function UpholsteryGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office2}
-            alt="office2"
+            src={upholstery2}
+            alt="upholstery2"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -61,8 +61,8 @@ export default function UpholsteryGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office3}
-            alt="office3"
+            src={upholstery3}
+            alt="upholstery3"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -72,8 +72,8 @@ export default function UpholsteryGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office4}
-            alt="office4"
+            src={upholstery4}
+            alt="upholstery4"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -83,8 +83,8 @@ export default function UpholsteryGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office5}
-            alt="office5"
+            src={upholstery5}
+            alt="upholstery5"
           />
         </GridItem>
       </GridContainer>
