@@ -37,7 +37,7 @@ export default function AreaRug() {
         fixed
         color="transparent"
         changeColorOnScroll={{
-          height: 300,
+          height: 150,
           color: "danger"
         }}
       />

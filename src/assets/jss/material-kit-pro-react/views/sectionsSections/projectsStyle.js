@@ -91,6 +91,9 @@ const projectsSection = {
       margin: "70px auto",
       maxWidth: "970px"
     }
+  },
+  hidden: {
+    visibility: "hidden"
   }
 };
 

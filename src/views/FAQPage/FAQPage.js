@@ -17,6 +17,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 
 import aboutUsStyle from "assets/jss/material-kit-pro-react/views/aboutUsStyle.js";
 import Filler from "views/ProductPages/Sections/Contact/Filler";
+import FAQs from "views/FAQPage/sections/FAQs"
 
 const useStyles = makeStyles(aboutUsStyle);
 
@@ -50,12 +51,14 @@ export default function FAQPage() {
                 classes.textCenter
               )}
             >
-              <h1 className={classes.title}>This Page Under Construction</h1>
+              <h1 className={classes.title}>FAQs</h1>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
-      <Filler />
+      <div className={classNames(classes.main, classes.mainRaised)}>
+        <FAQs />
+      </div>
       <Footer
         content={
           <div>
