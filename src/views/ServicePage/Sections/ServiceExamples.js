@@ -1,8 +1,6 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// react components for routing our app without refresh
-import { Link } from "react-router-dom";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -13,11 +11,13 @@ import { makeStyles } from "@material-ui/core/styles";
 import examplesStyle from "assets/jss/material-kit-pro-react/views/presentationSections/examplesStyle.js";
 import imagesStyles from "assets/jss/material-kit-pro-react/imagesStyles.js";
 
-import areaRug from "assets/img/sections/mainPage/areaRug.jpg"
-import carpetCleaning from "assets/img/sections/mainPage/carpetCleaning.jpg"
-import petStain from "assets/img/sections/mainPage/petStain.jpg"
-import tileGrout from "assets/img/sections/mainPage/tileGrout.jpg"
-import upholstery from "assets/img/sections/mainPage/upholstery.jpg"
+import carpentry from "assets/img/servicePages/other/carpentry.jpg"
+import drywall from "assets/img/servicePages/other/drywall.jpg"
+import electrical from "assets/img/servicePages/other/electrical.jpg"
+import painting from "assets/img/servicePages/other/painting.jpg"
+import plumbing from "assets/img/servicePages/other/plumbing.jpg"
+import pressureWashing from "assets/img/servicePages/other/pressureWashing.jpg"
+
 
 const styles = {
   ...examplesStyle,
@@ -31,65 +31,57 @@ export default function ServiceExamples() {
   return (
     <div className={classNames(classes.section, classes.sectionDark)}>
       <div className={classes.container}>
-        <GridItem md={8} className={classNames(classes.mrAuto, classes.mlAuto)}>
-          <div className={classes.sectionDescription}>
-            <h2 className={classes.title}>Our Services</h2>
-
-          </div>
-        </GridItem>
         <GridContainer>
           <GridItem md={6} sm={6} xs={12}>
-            <h4 className={classes.title}>Steam Carpet Cleaning</h4>
+            <h4 className={classes.title}>Pressure Washing</h4>
             <Card className={classes.imgCardExtended}>
-              <Link to={"/carpet-cleaning"}>
-                <img
-                  src={carpetCleaning}
-                  alt="Steam Carpet Cleaning"
-                  className={classes.imgCard}
-                />
-              </Link>
+              <img
+                src={pressureWashing}
+                alt="Pressure Washing"
+                className={classes.imgCard}
+              />
             </Card>
-            <h4 className={classes.title}>Tile & Grout Cleaning</h4>
+            <h4 className={classes.title}>Plumbing</h4>
             <Card className={classes.imgCardExtended}>
-              <Link to={"/tile-grout"}>
-                <img
-                  src={tileGrout}
-                  alt="Tile & Grout Cleaning"
-                  className={classes.imgCard}
-                />
-              </Link>
+              <img
+                src={plumbing}
+                alt="Tile & Grout Cleaning"
+                className={classes.imgCard}
+              />
             </Card>
-            <h4 className={classes.title}>Upholstery</h4>
+            <h4 className={classes.title}>Electrical</h4>
             <Card className={classes.imgCardExtended}>
-              <Link to={"/upholstery"}>
-                <img
-                  src={upholstery}
-                  alt="Upholstery"
-                  className={classes.imgCard}
-                />
-              </Link>
+              <img
+                src={electrical}
+                alt="Upholstery"
+                className={classes.imgCard}
+              />
             </Card>
           </GridItem>
           <GridItem md={6} sm={6} xs={12}>
-            <h4 className={classes.title}>Area Rug Cleaning</h4>
+            <h4 className={classes.title}>Drywall</h4>
             <Card className={classes.imgCardExtended}>
-              <Link to={"/area-rug"}>
-                <img
-                  src={areaRug}
-                  alt="Area Rug Cleaning"
-                  className={classes.imgCard}
-                />
-              </Link>
+              <img
+                src={drywall}
+                alt="Area Rug Cleaning"
+                className={classes.imgCard}
+              />
             </Card>
-            <h4 className={classes.title}>Pet Stain & Odor Treatment</h4>
+            <h4 className={classes.title}>Carpentry</h4>
             <Card className={classes.imgCardExtended}>
-              <Link to={"/pet-stain-odor"}>
-                <img
-                  src={petStain}
-                  alt="Pet Stain & Odor Treatment"
-                  className={classes.imgCard}
-                />
-              </Link>
+              <img
+                src={carpentry}
+                alt="Pet Stain & Odor Treatment"
+                className={classes.imgCard}
+              />
+            </Card>
+            <h4 className={classes.title}>Painting</h4>
+            <Card className={classes.imgCardExtended}>
+              <img
+                src={painting}
+                alt="Pet Stain & Odor Treatment"
+                className={classes.imgCard}
+              />
             </Card>
           </GridItem>
         </GridContainer>
