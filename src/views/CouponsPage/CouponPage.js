@@ -17,6 +17,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 
 import aboutUsStyle from "assets/jss/material-kit-pro-react/views/aboutUsStyle.js";
 import Filler from "views/ProductPages/Sections/Contact/Filler";
+import ProductContact from "views/ProductPages/Sections/Contact/ProductContact";
 
 const useStyles = makeStyles(aboutUsStyle);
 
@@ -55,11 +56,13 @@ export default function CouponPage() {
           </GridContainer>
         </div>
       </Parallax>
-      <Filler />
+      <div className={classNames(classes.main, classes.mainRaised)}>
+        <ProductContact />
+      </div>
       <Footer
         content={
           <div>
-            <div className={classes.left}>
+            {/* <div className={classes.left}>
               <List className={classes.list}>
                 <ListItem className={classes.inlineBlock}>
                   <a
@@ -70,7 +73,7 @@ export default function CouponPage() {
                   </a>
                 </ListItem>
               </List>
-            </div>
+            </div> */}
             <div className={classes.right}>
               &copy; {1900 + new Date().getYear()} , made by{" "}
               <a

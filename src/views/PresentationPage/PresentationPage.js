@@ -100,7 +100,7 @@ export default function PresentationPage() {
                 </li>
                 <li>
                   <Button
-                    href="https://www.google.com/search?q=Elite+Home+Solutions+sa"
+                    href="https://www.google.com/search?q=Elite+Home+Solutions+SA"
                     target="_blank"
                     color="google"
                     justIcon

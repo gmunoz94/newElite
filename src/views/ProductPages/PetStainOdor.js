@@ -70,7 +70,7 @@ export default function PetStainOdor() {
       <Footer
         content={
           <div>
-            <div className={classes.left}>
+            {/* <div className={classes.left}>
               <List className={classes.list}>
               <ListItem className={classes.inlineBlock}>
                   <a
@@ -81,7 +81,7 @@ export default function PetStainOdor() {
                   </a>
                 </ListItem>
               </List>
-            </div>
+            </div> */}
             <div className={classes.right}>
               &copy; {1900 + new Date().getYear()} , made by{" "}
               <a

@@ -85,6 +85,11 @@ export default function ServiceExamples() {
             </Card>
           </GridItem>
         </GridContainer>
+        <GridItem md={8} className={classNames(classes.mrAuto, classes.mlAuto)}>
+          <div className={classes.sectionDescription}>
+            <h2 className={classes.title}>And many more...</h2>
+          </div>
+        </GridItem>
       </div>
     </div>
   );

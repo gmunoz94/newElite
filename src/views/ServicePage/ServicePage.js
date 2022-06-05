@@ -15,13 +15,12 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 // sections for this page
-import SectionDescription from "views/PresentationPage/Sections/SectionDescription.js";
-import SectionExamples from "views/PresentationPage/Sections/SectionExamples.js";
 import SectionPricing from "views/PresentationPage/Sections/SectionPricing.js";
 
 import presentationStyle from "assets/jss/material-kit-pro-react/views/presentationStyle.js";
 import logo from '../../assets/img/Logo-TRANS.png'
 import ServiceExamples from "./Sections/ServiceExamples";
+import ProductContact from "views/ProductPages/Sections/Contact/ProductContact";
 
 const useStyles = makeStyles(presentationStyle);
 
@@ -64,21 +63,25 @@ export default function ServicePage() {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <ServiceExamples />
+        <ProductContact />
       </div>
       <SectionPricing />
       <Footer
-        theme="white"
         content={
           <div>
-            <div className={classes.left}>
-              <a
-                href="/"
-                className={classes.footerBrand}
-              >
-                Elite Home Solutions
-              </a>
-            </div>
-            <div className={classes.pullCenter}>
+            {/* <div className={classes.left}>
+              <List className={classes.list}>
+                <ListItem className={classes.inlineBlock}>
+                  <a
+                    href="/"
+                    className={classes.block}
+                  >
+                    About us
+                  </a>
+                </ListItem>
+              </List>
+            </div> */}
+            <div className={classes.right}>
               &copy; {1900 + new Date().getYear()} , made by{" "}
               <a
                 href="https://www.munoz-web.dev"
@@ -86,43 +89,6 @@ export default function ServicePage() {
               >
                 Munoz WebDev
               </a>
-            </div>
-            <div className={classes.rightLinks}>
-              <ul>
-                <li>
-                  <Button
-                    href="https://www.facebook.com/elitehomesolutionsllc.sa"
-                    target="_blank"
-                    color="facebook"
-                    justIcon
-                    simple
-                  >
-                    <i className="fab fa-facebook-f" />
-                  </Button>
-                </li>
-                <li>
-                  <Button
-                    href="https://www.google.com/search?q=Elite+Home+Solutions+sa"
-                    target="_blank"
-                    color="google"
-                    justIcon
-                    simple
-                  >
-                    <i className="fab fa-google" />
-                  </Button>
-                </li>
-                <li>
-                  <Button
-                    href="https://instagram.com/"
-                    target="_blank"
-                    color="instagram"
-                    justIcon
-                    simple
-                  >
-                    <i className="fab fa-instagram" />
-                  </Button>
-                </li>
-              </ul>
             </div>
           </div>
         }
