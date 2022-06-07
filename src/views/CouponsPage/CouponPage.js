@@ -16,7 +16,7 @@ import Footer from "components/Footer/Footer.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 
 import aboutUsStyle from "assets/jss/material-kit-pro-react/views/aboutUsStyle.js";
-import Filler from "views/ProductPages/Sections/Contact/Filler";
+
 import ProductContact from "views/ProductPages/Sections/Contact/ProductContact";
 
 const useStyles = makeStyles(aboutUsStyle);
