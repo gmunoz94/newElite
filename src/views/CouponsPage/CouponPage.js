@@ -36,7 +36,7 @@ export default function CouponPage() {
         color="transparent"
         changeColorOnScroll={{
           height: 300,
-          color: "danger"
+          color: "dark"
         }}
       />
       <Parallax image={require("assets/img/sections/mainPage/areaRug.jpg")} filter="dark" small>

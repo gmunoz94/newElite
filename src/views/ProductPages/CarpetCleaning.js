@@ -42,7 +42,7 @@ export default function CarpetCleaning() {
         color="transparent"
         changeColorOnScroll={{
           height: 150,
-          color: "danger"
+          color: "dark"
         }}
       />
       <Parallax image={require("assets/img/sections/mainPage/carpetCleaning.jpg")} filter="dark" small>

@@ -38,7 +38,7 @@ export default function TileAndGrout() {
         color="transparent"
         changeColorOnScroll={{
           height: 150,
-          color: "danger"
+          color: "dark"
         }}
       />
       <Parallax image={require("assets/img/sections/mainPage/tileGrout.jpg")} filter="dark" small>

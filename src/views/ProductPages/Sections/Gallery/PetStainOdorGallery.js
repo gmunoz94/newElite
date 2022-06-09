@@ -10,11 +10,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle.js";
 
 // office
-import office1 from "assets/img/examples/office1.jpg";
-import office2 from "assets/img/examples/office2.jpg";
-import office3 from "assets/img/examples/office3.jpg";
-import office4 from "assets/img/examples/office4.jpg";
-import office5 from "assets/img/examples/office5.jpg";
+import pet1 from "assets/img/servicePages/petStain/pet1.jpg";
+import pet2 from "assets/img/servicePages/petStain/pet2.jpg";
+import pet3 from "assets/img/servicePages/petStain/pet3.jpg";
+import pet4 from "assets/img/servicePages/petStain/pet4.jpg";
+import pet5 from "assets/img/servicePages/petStain/pet5.jpg";
 
 const useStyles = makeStyles(officeStyle);
 
@@ -39,8 +39,8 @@ export default function PetStainOdorGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office1}
-            alt="office1"
+            src={pet1}
+            alt="pet1"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -50,8 +50,8 @@ export default function PetStainOdorGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office2}
-            alt="office2"
+            src={pet2}
+            alt="pet2"
           />
         </GridItem>
         <GridItem md={4} sm={4}>
@@ -61,8 +61,8 @@ export default function PetStainOdorGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office3}
-            alt="office3"
+            src={pet3}
+            alt="pet3"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -72,8 +72,8 @@ export default function PetStainOdorGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office4}
-            alt="office4"
+            src={pet4}
+            alt="pet4"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
@@ -83,8 +83,8 @@ export default function PetStainOdorGallery() {
               classes.imgFluid,
               classes.rounded
             )}
-            src={office5}
-            alt="office5"
+            src={pet5}
+            alt="pet5"
           />
         </GridItem>
       </GridContainer>

@@ -38,7 +38,7 @@ export default function Upholstery() {
         color="transparent"
         changeColorOnScroll={{
           height: 150,
-          color: "danger"
+          color: "dark"
         }}
       />
       <Parallax image={require("assets/img/sections/mainPage/upholstery.jpg")} filter="dark" small>

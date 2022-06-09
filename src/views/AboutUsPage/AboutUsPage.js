@@ -41,7 +41,7 @@ export default function AboutUsPage() {
         color="transparent"
         changeColorOnScroll={{
           height: 300,
-          color: "info"
+          color: "dark"
         }}
       />
       <Parallax image={require("../../assets/img/bg9.jpg")} filter="dark" small>

@@ -39,7 +39,7 @@ export default function ServicePage() {
         color="transparent"
         changeColorOnScroll={{
           height: 400,
-          color: "danger"
+          color: "dark"
         }}
       />
       <Parallax

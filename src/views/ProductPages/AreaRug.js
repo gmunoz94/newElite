@@ -38,7 +38,7 @@ export default function AreaRug() {
         color="transparent"
         changeColorOnScroll={{
           height: 150,
-          color: "danger"
+          color: "dark"
         }}
       />
       <Parallax image={require("assets/img/sections/mainPage/areaRug.jpg")} filter="dark" small>
