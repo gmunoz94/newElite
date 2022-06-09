@@ -37,7 +37,7 @@ export default function PresentationPage() {
         color="transparent"
         changeColorOnScroll={{
           height: 150,
-          color: "danger"
+          color: "dark"
         }}
       />
       <Parallax

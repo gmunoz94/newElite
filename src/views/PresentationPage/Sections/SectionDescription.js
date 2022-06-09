@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import featuresStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle";
 import lounge1 from "assets/img/sections/lounge1.jpg";
-import { Looks3, Looks4, LooksOne, LooksTwo } from "@material-ui/icons";
+import { FiberManualRecordTwoTone } from "@material-ui/icons";
 
 const useStyles = makeStyles(featuresStyle);
 
@@ -35,12 +35,12 @@ export default function SectionDescription() {
     <GridContainer>
       <GridItem xs={12} sm={12} md={12} lg={3} className={classes.mlAuto}>
         <InfoArea
-          icon={LooksOne}
+          icon={FiberManualRecordTwoTone}
           title="First, we will come and meet with you personally. We want to figure out what your expectations are so we can make sure that we meet them."
           iconColor="info"
         />
         <InfoArea
-          icon={LooksTwo}
+          icon={FiberManualRecordTwoTone}
           title="After this, we will provide you with a quote. We will clearly explain why we want to use certain cleaning methods to take care of your carpets. That way, you know exactly what will happen."
           iconColor="danger"
         />
@@ -52,12 +52,12 @@ export default function SectionDescription() {
       </GridItem>
       <GridItem xs={12} sm={12} md={12} lg={3} className={classes.mrAuto}>
         <InfoArea
-          icon={Looks3}
+          icon={FiberManualRecordTwoTone}
           title="Next, our team will complete the cleaning job. We will treat your carpets like they are our own, protecting your carpets, your property, and the rest of your building."
           iconColor="primary"
         />
         <InfoArea
-          icon={Looks4}
+          icon={FiberManualRecordTwoTone}
           title="When we are done, we will give you a chance to review the work to make sure you are happy. If you are unhappy with our work, we will go back and do it again, making sure you are satisfied."
           iconColor="success"
         />
