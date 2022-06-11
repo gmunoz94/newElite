@@ -10,11 +10,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle.js";
 
 // office
-import upholstery1 from "assets/img/servicePages/upholstery/upholstery1.jpg";
-import upholstery2 from "assets/img/servicePages/upholstery/upholstery2.jpg";
-import upholstery3 from "assets/img/servicePages/upholstery/upholstery3.jpg";
-import upholstery4 from "assets/img/servicePages/upholstery/upholstery4.jpg";
-import upholstery5 from "assets/img/servicePages/upholstery/upholstery5.jpg";
+import upholstery1 from "assets/img/servicePages/upholstery/upholstery1-W.jpg";
+import upholstery2 from "assets/img/servicePages/upholstery/upholstery2-W.jpg";
+import upholstery3 from "assets/img/servicePages/upholstery/upholstery3-W.jpg";
+import upholstery4 from "assets/img/servicePages/upholstery/upholstery4-W.jpg";
+import upholstery5 from "assets/img/servicePages/upholstery/upholstery5-W.jpg";
 
 const useStyles = makeStyles(officeStyle);
 

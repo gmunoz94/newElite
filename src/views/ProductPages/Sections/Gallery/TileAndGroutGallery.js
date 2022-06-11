@@ -7,7 +7,7 @@ import GridItem from "components/Grid/GridItem.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle.js";
+import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle2.js";
 
 // office
 import tile1 from "assets/img/servicePages/tile/tile1.jpg";
@@ -28,10 +28,10 @@ export default function TileAndGroutGallery() {
           sm={8}
           className={classNames(classes.mrAuto, classes.mlAuto)}
         >
-          <h2 className={classes.title}>View our recent work!</h2>
+          <h2 className={classes.sectionTitle}>View our recent work!</h2>
         </GridItem>
       </GridContainer>
-      <GridContainer>
+      <GridContainer className={classes.textCenter}>
         <GridItem md={4} sm={4}>
           <img
             className={classNames(
@@ -44,6 +44,7 @@ export default function TileAndGroutGallery() {
           />
         </GridItem>
         <GridItem md={4} sm={4}>
+          <h5 className={classes.title}>Night and Day Difference</h5>
           <img
             className={classNames(
               classes.imgRaised,
@@ -60,23 +61,25 @@ export default function TileAndGroutGallery() {
               classes.imgRaised,
               classes.imgFluid,
               classes.rounded
-            )}
+              )}
             src={tile3}
             alt="tile3"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
+          <h5 className={classes.title}>Before</h5>
           <img
             className={classNames(
               classes.imgRaised,
               classes.imgFluid,
               classes.rounded
-            )}
+              )}
             src={tile4}
             alt="tile4"
           />
         </GridItem>
         <GridItem md={6} sm={6}>
+          <h5 className={classes.title}>After</h5>
           <img
             className={classNames(
               classes.imgRaised,

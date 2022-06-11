@@ -7,11 +7,11 @@ import GridItem from "components/Grid/GridItem.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle.js";
+import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle2.js";
 
 // office
 import rug1 from "assets/img/servicePages/rug/rug1.jpg";
-import rug2 from "assets/img/servicePages/rug/rug2.jpg";
+import rug2 from "assets/img/servicePages/rug/rug2-W.jpg";
 import rug3 from "assets/img/servicePages/rug/rug3.jpg";
 import rug4 from "assets/img/servicePages/rug/rug4.jpg";
 import rug5 from "assets/img/servicePages/rug/rug5.jpg";
@@ -28,10 +28,10 @@ export default function AreaRugGallery() {
           sm={8}
           className={classNames(classes.mrAuto, classes.mlAuto)}
         >
-          <h2 className={classes.title}>View our recent work!</h2>
+          <h2 className={classes.sectionTitle}>View our recent work!</h2>
         </GridItem>
       </GridContainer>
-      <GridContainer>
+      <GridContainer className={classes.textCenter}>
         <GridItem md={4} sm={4}>
           <img
             className={classNames(
@@ -66,6 +66,7 @@ export default function AreaRugGallery() {
           />
         </GridItem>
         <GridItem md={6} sm={6}>
+          <h5 className={classes.title}>Before</h5>
           <img
             className={classNames(
               classes.imgRaised,
@@ -77,6 +78,7 @@ export default function AreaRugGallery() {
           />
         </GridItem>
         <GridItem md={6} sm={6}>
+          <h5 className={classes.title}>After</h5>
           <img
             className={classNames(
               classes.imgRaised,

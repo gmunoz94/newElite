@@ -7,7 +7,7 @@ import GridItem from "components/Grid/GridItem.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle.js";
+import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle2.js";
 
 // office
 import carpet1 from "assets/img/servicePages/carpet/carpet1.jpg";
@@ -28,11 +28,12 @@ export default function CarpetCleaningGallery() {
           sm={8}
           className={classNames(classes.mrAuto, classes.mlAuto)}
         >
-          <h2 className={classes.title}>View our recent work!</h2>
+          <h2 className={classes.sectionTitle}>View our recent work!</h2>
         </GridItem>
       </GridContainer>
-      <GridContainer>
+      <GridContainer className={classes.textCenter}>
         <GridItem md={4} sm={4}>
+          <h5 className={classes.title}>Before</h5>
           <img
             className={classNames(
               classes.imgRaised,
@@ -44,6 +45,7 @@ export default function CarpetCleaningGallery() {
           />
         </GridItem>
         <GridItem md={4} sm={4}>
+          <h5 className={classes.title}>After</h5>
           <img
             className={classNames(
               classes.imgRaised,
@@ -57,6 +59,7 @@ export default function CarpetCleaningGallery() {
           />
         </GridItem>
         <GridItem md={4} sm={4}>
+          <h5 className={classes.title}>Night and Day Difference</h5>
           <img
             className={classNames(
               classes.imgRaised,
@@ -68,6 +71,7 @@ export default function CarpetCleaningGallery() {
           />
         </GridItem>
         <GridItem md={6} sm={6}>
+          <h5 className={classes.title}>Before</h5>
           <img
             className={classNames(
               classes.imgRaised,
@@ -79,6 +83,7 @@ export default function CarpetCleaningGallery() {
           />
         </GridItem>
         <GridItem md={6} sm={6}>
+          <h5 className={classes.title}>After</h5>
           <img
             className={classNames(
               classes.imgRaised,
