@@ -32,7 +32,7 @@ export default function PresentationPage() {
   return (
     <div>
       <Header
-        links={<HeaderLinks dropdownHoverColor="info" />}
+        links={<HeaderLinks dropdownHoverColor="danger" />}
         fixed
         color="transparent"
         changeColorOnScroll={{

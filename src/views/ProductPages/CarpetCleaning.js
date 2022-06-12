@@ -37,7 +37,7 @@ export default function CarpetCleaning() {
     <div>
       <Header
         brand="Elite Home Solutions"
-        links={<HeaderLinks dropdownHoverColor="info" />}
+        links={<HeaderLinks dropdownHoverColor="danger" />}
         fixed
         color="transparent"
         changeColorOnScroll={{

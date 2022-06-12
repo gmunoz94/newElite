@@ -33,7 +33,7 @@ export default function TileAndGrout() {
     <div>
       <Header
         brand="Elite Home Solutions"
-        links={<HeaderLinks dropdownHoverColor="info" />}
+        links={<HeaderLinks dropdownHoverColor="danger" />}
         fixed
         color="transparent"
         changeColorOnScroll={{

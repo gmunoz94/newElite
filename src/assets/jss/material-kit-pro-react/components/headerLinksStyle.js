@@ -124,7 +124,11 @@ const headerLinksStyle = theme => ({
     },
     "& $icons": {
       marginRight: "3px"
-    }
+    },
+    "&:hover,&:focus": {
+      backgroundColor: "#930909",
+      color: "inherit"
+    },
   },
   notificationNavLink: {
     color: "inherit",
