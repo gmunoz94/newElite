@@ -32,7 +32,7 @@ export default function PetStainOdorGallery() {
         </GridItem>
       </GridContainer>
       <GridContainer className={classes.textCenter}>
-        <GridItem md={4} sm={4}>
+        {/* <GridItem md={4} sm={4}>
           <img
             className={classNames(
               classes.imgRaised,
@@ -64,7 +64,7 @@ export default function PetStainOdorGallery() {
             src={pet3}
             alt="pet3"
           />
-        </GridItem>
+        </GridItem> */}
         <GridItem md={6} sm={6}>
           <h5 className={classes.title}>Before</h5>
           <img
